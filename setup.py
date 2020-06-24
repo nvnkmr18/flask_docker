@@ -9,5 +9,5 @@ setup(
     install_requires=[
         'flask','gunicorn',
     ],
-    extras_require={"test": ["pytest", "coverage"]},
+    extras_require={"tests": ["pytest", "coverage"]},
 )
